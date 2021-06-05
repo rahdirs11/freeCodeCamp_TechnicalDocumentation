@@ -1,7 +1,8 @@
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 
 #navbar {
   width: calc(1920px * 0.18);
@@ -25,6 +26,7 @@
 
 #navbar ul {
   list-style: none;
+  /* width: 100%; */
 }
 #navbar ul li {
   /* background-color: purple; */
@@ -58,8 +60,6 @@
 
 .main-section-header {
   margin-bottom: 20px;
-}
-.main-section-header p {
   font-size: 35px;
   font-weight: 500;
 }
@@ -173,3 +173,26 @@ hr {
     }
   }
 }
+
+code {
+    display: block;
+}
+
+/* 
+<ul>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#What_you_should_already_know" class="nav-link">What you should already know</a></li>
+            <li><a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a></li>
+            <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+            <li><a href="#Variables" class="nav-link">Variables</a></li>
+            <li><a href="#Declaring_variables" class="nav-link">Declaring variables</a></li>
+            <li><a href="#Variable_Scope" class="nav-link">Variable Scope</a></li>
+            <li><a href="#Global_Variables" class="nav-link">Global Variables</a></li>
+            <li><a href="#Constants" class="nav-link">Constants</a></li>
+            <li><a href="#Data_Types" class="nav-link">Data Types</a></li>
+            <li><a href="#if...else_statement" class="nav-link">if...else statements</a></li>
+            <li><a href="#while_statement" class="nav-link">while statement</a></li>
+            <li><a href="#Function_declarations" class="nav-link">Function declarations</a></li>
+            <li><a href="#References" class="nav-link">References</a></li>
+        </ul>
+*/
